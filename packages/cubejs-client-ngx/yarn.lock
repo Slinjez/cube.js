@@ -785,10 +785,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cubejs-client/core@^0.10.16":
-  version "0.10.16"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.10.16.tgz#460759462c51426b7766bdb12123f4b703b20c80"
-  integrity sha512-Xf1EQJeBksl9ElrX8GhsyhCloULpfo36Z+LqAc4t8g1XwDX7cbF8UXmWrcq5GTbg3aNRevXZCem6X0nPJ2xwkg==
+"@cubejs-client/core@^0.13.9":
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.13.9.tgz#0e6fef3562a65813cbeaba9f6aa70715d69fe859"
+  integrity sha512-pAQxZF8lep0uJ8PPreQTy71KNUwfTcyB2Z/6mVXKT/YH/jcNPKJyHRRQKCweaoB6CrRAtpj6dVtsjIUiKbUhyQ==
   dependencies:
     "@babel/runtime" "^7.1.2"
     core-js "^2.5.3"
@@ -796,6 +796,7 @@
     moment "^2.22.2"
     moment-range "^4.0.1"
     ramda "^0.25.0"
+    url-search-params-polyfill "^7.0.0"
 
 "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
@@ -2325,7 +2326,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.2.5:
+debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -2944,11 +2945,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
-  integrity sha512-CRcPzsSIbXyVDl0QI01muNDu69S8trU4jArW9LpOt2WtC6LyUJetcIrmfHsRBx7/Jb6GHJUiuqyYxPooFfNt6A==
-  dependencies:
-    debug "^3.0.0"
+  version "1.15.6"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
+  integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -6791,6 +6790,11 @@ url-parse@^1.4.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
+
+url-search-params-polyfill@^7.0.0:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/url-search-params-polyfill/-/url-search-params-polyfill-7.0.1.tgz#b900cd9a0d9d2ff757d500135256f2344879cbff"
+  integrity sha512-bAw7L2E+jn9XHG5P9zrPnHdO0yJub4U+yXJOdpcpkr7OBd9T8oll4lUos0iSGRcDvfZoLUKfx9a6aNmIhJ4+mQ==
 
 url@^0.11.0:
   version "0.11.0"
